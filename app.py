@@ -36,7 +36,7 @@ class GenderClassificationModel(nn.Module):
         return x
 
 
-model = torch.load("c:/Users/Anietie Ben/Documents/model.pth")
+model = torch.load("model.pth")
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 model.to(device)
 model.eval()
