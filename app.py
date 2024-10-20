@@ -36,7 +36,7 @@ class GenderClassificationModel(nn.Module):
         return x
 
 
-model = torch.load("model.pth")
+model = torch.load("model.pth", map_location = torch.device('cpu'))
 device = 'cpu'
 model.to(device)
 model.eval()
