@@ -1,0 +1,9 @@
+Make sure to install the necessary libraries using this file:
+
+plaintext
+Copy code
+numpy
+pandas
+stable-baselines3
+MetaTrader5
+tensorflow
