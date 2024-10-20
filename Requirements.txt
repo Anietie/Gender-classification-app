@@ -1,5 +1,3 @@
-Make sure to install the necessary libraries using this file:
-
 streamlit
 torch
 torchvision
